@@ -1,21 +1,9 @@
 package Trabalhador;
 
+
 public class Resultado extends Comunicado
 {
-    private long valorResultante;
-
-    public Resultado (long valorResultante)
-    {
-        this.valorResultante = valorResultante;
-    }
-
-    public long getValorResultante ()
-    {
-        return this.valorResultante;
-    }
-
-    public String toString ()
-    {
-        return ""+this.valorResultante;
-    }
+    private byte[] vetor;
+    public Resultado (byte[] vetor) { this.vetor = vetor; }
+    public byte[] getVetor () { return this.vetor; }
 }
