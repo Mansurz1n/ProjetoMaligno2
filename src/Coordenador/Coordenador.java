@@ -67,7 +67,7 @@ public class Coordenador
                 String ip = teclado.nextLine().trim();
                 System.out.print ("Porta do trabalhador "+i+": ");
                 int porta = Integer.parseInt (teclado.nextLine().trim());
-                lista.add (new InfoTrabalhador (ip, porta));
+                lista.add (new InfoTrabalhador(ip, porta));
             }
         }
         return lista;

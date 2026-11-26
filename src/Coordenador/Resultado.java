@@ -18,4 +18,7 @@ public class Resultado extends Comunicado
     {
         return ""+this.valorResultante;
     }
+
+    public byte[] getVetor() {
+    }
 }
